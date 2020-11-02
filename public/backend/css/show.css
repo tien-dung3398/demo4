@@ -1,0 +1,110 @@
+ .row .col-lg-12 .panel .content {
+     display: flex;
+     height: 480px;
+     font: 14px/18px Helvetica, Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+ }
+ 
+ .row .col-lg-12 .panel .content .left {
+     width: 65%;
+     height: 450px;
+ }
+ 
+ .row .col-lg-12 .panel .content .left>p {
+     height: 40px;
+     display: flex;
+     align-items: center;
+     padding-left: 30px;
+     font-weight: 500;
+     font-size: 18px;
+ }
+ 
+ body {
+     background: #eee;
+     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+     font-size: 14px;
+     color: #000;
+     margin: 0;
+     padding: 0;
+ }
+ 
+ .row .col-lg-12 .panel .content .left .swiper-container {
+     width: 94%;
+     height: 96%;
+ }
+ 
+ .row .col-lg-12 .panel .content .left .swiper-slide {
+     text-align: center;
+     font-size: 18px;
+     background: #fff;
+     width: 100%;
+     margin: 0px;
+     padding: 0px;
+     /* Center slide text vertically */
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: -webkit-flex;
+     display: flex;
+     -webkit-box-pack: center;
+     -webkit-justify-content: center;
+     justify-content: center;
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+ }
+ 
+ .row .col-lg-12 .panel .content .left img {
+     width: 100%;
+     height: 100%;
+     padding-bottom: 2%;
+ }
+ 
+ .row .col-lg-12 .panel .content .right {
+     width: 35%;
+ }
+ 
+ .row .col-lg-12 .panel .content .right>p {
+     height: 40px;
+     display: flex;
+     align-items: center;
+     padding-left: 20px;
+     font-weight: 500;
+     font-size: 18px;
+ }
+ 
+ .row .col-lg-12 .panel .content .right .specifications {
+     display: flex;
+     justify-content: center;
+     width: 92%;
+     height: 90%;
+     margin-left: 4%;
+ }
+ 
+ .row .col-lg-12 .panel .content .right .specifications .thongso {
+     width: 120px;
+     height: 80%;
+ }
+ 
+ .row .col-lg-12 .panel .content .right .specifications .thongso p {
+     height: 50px;
+     font-weight: 300;
+     font-size: 16px;
+     font: 14px/18px Helvetica, Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+ }
+ 
+ .row .col-lg-12 .panel .content .right .specifications .thongtin {
+     width: 230px;
+     height: 80%;
+ }
+ 
+ .row .col-lg-12 .panel .content .right .specifications .thongtin p {
+     height: 50px;
+     margin-left: 10px;
+     font-weight: 300;
+     font-size: 16px;
+     font: 14px/18px Helvetica, Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+ }
+ 
+ .row .col-lg-12 .panel .content .right button {
+     position: absolute;
+     bottom: 70px;
+     margin-left: 100px;
+ }
